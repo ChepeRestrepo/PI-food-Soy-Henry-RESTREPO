@@ -8,7 +8,7 @@ export default function Nav() {
       <h1 className="Nav_Title">PI-Food Henry</h1>
       <Link to="/CreateRecipe">
         <button class="button-Nav" role="button">
-          Crete Recipe
+          Create Recipe
         </button>
       </Link>
     </div>

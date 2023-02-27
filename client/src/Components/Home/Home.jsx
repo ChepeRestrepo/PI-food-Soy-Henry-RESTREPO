@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { getRecipe, cleanRecipe, getDiets, addFavorite } from "../../Actions";
 import { Link } from "react-router-dom";
-import Nav from "../Nav 2/Nav";
+import Nav2 from "../Nav 2/Nav2";
 import Card from "../Card/Card";
 import "./Home.scss";
 import Filters from "../Filters/Filters";
@@ -36,7 +36,7 @@ export default function Home() {
     <div className="parent">
       {allRecipes.length > 0 ? (
         <div className="dis-constainer">
-          <Nav className="div1" />
+          <Nav2 className="div1" />
           <div className="home_container">
             <div className="aling-filter">
               <div className="container_filter">

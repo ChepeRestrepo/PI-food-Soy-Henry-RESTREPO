@@ -50,7 +50,7 @@ export default function Card({
       {/* <button onClick={e=> handlefavorite(name)}>Agregar Fav</button> */}
       <Link to={`/recipes/${id}`}>
         <button class="button-more" role="button">
-          More Details
+          Mas detalles
         </button>
       </Link>
     </div>

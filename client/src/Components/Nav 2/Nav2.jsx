@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 
-export default function Nav() {
+export default function Nav2() {
   return (
     <div className="Nav_Container">
       <h1 className="Nav_Title">PI-Food Henry</h1>

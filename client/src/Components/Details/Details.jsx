@@ -3,7 +3,7 @@ import { useParams } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 import { cleanDetail, detailCard } from "../../Actions";
-import Nav from "../Nav 2/Nav.jsx";
+import Nav2 from "../Nav 2/Nav2";
 import "./Details.css";
 import LoadingPage from "../LoadingPage/LoadingPage";
 
@@ -25,7 +25,7 @@ export default function Details() {
     <div>
       {details.id ? (
         <div>
-          <Nav />
+          <Nav2 />
           <div id="card-container">
             <h1 id="card-title">{details.name}</h1>
             <img
@@ -55,13 +55,13 @@ export default function Details() {
               </ol>
             </div>
             <Link to="/home">
-              <button className="button-home">More recipes</button>
+              <button className="button-home">Mas recetas</button>
             </Link>
           </div>
         </div>
       ) : (
         <div>
-          <Nav />
+          <Nav2 />
           <LoadingPage />
         </div>
       )}
